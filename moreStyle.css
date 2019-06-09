@@ -15,3 +15,33 @@ ul > li {
       color: #040b33;
 
   }
+
+
+
+
+
+@media (min-width: 800px) {
+
+  .carousel-item img{
+    width: auto;
+
+    height: 500px;
+
+    max-height: 500px;
+
+  }
+
+  }
+  @media (max-width: 799px) {
+
+      
+      .carousel-item img{
+        width: auto;
+
+        height: 225px;
+
+        max-height: 225px;
+
+      }
+    }
+  }
