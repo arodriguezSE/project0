@@ -1,9 +1,82 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="moreStyle.css">
         <title>My Webpage</title>
     </head>
-    <body>
-        Hello, world!
+    <body class ="text-center">
+      <header>
+      <nav class="navbar navbar-expand-sm navbar-light bg-light ">
+        <a class="navbar-brand" href="#">CC</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="pastProjects.html">Past projects</a>
+            <a class="nav-item nav-link" href="prices.html">Pricing</a>
+            <a class="nav-item nav-link" href="contact.html" >Contact</a>
+          </div>
+        </div>
+      </nav>
+      </header>
+      <main>
+        <div class="jumbotron">
+          <h1 class="display-4">Christine Clarisse</h1>
+          <p class="lead">Business consulting services</p>
+          <hr class="my-4">
+        </div>
+        <div id = "services mt-5">
+          <p>I am a business consultant that can provide these services:</p>
+          <div id = "list" >
+          <ul class="d-flex text-center flex-column align-items-center list-unstyled">
+            <li> Service1 </li>
+            <li> Service2 </li>
+            <li> Service3 </li>
+          </ul>
+          </div>
+        </div>
+        <div id="tablediv" class="d-flex text-center flex-column align-items-center mt-5 mb-5" >
+        <table  class="table col-9 ">
+          <thead>
+            <tr>
+              <th scope="col">Service</th>
+              <th scope="col">Local</th>
+              <th scope="col">National</th>
+              <th scope="col">International</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Service1</th>
+              <td> &#10003; </td>
+              <td>&#10003;</td>
+              <td>&#10003;</td>
+            </tr>
+            <tr>
+              <th scope="row">Service2</th>
+              <td>&#10003;</td>
+              <td>&#10003;</td>
+              <td>&#10005;</td>
+            </tr>
+            <tr>
+              <th scope="row">Service3</th>
+              <td>&#10003;</td>
+              <td>&#10005;</td>
+              <td>&#10005;</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
+
 </html>
